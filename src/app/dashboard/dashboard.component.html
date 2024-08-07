@@ -17,7 +17,34 @@
             </mat-card-title>
           </mat-card-header>
           <mat-card-content class="dashboard-card-content">
-            <div>Card Content Here</div>
+            <form class="flex flex-col gap-4" style="--my-app-form-field-fonts: Impact">
+              <div>
+                <mat-form-field class="my-app-form-field" style="--my-app-form-field-fonts: Roboto" appearance="outline" floatLabel="always">
+                  <mat-label>Outline form field</mat-label>
+                  <input matInput placeholder="Placeholder">
+                  <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+                  <mat-hint>Hint</mat-hint>
+                </mat-form-field>    
+              </div>
+
+              <div>
+                <mat-form-field class="my-app-form-field" appearance="outline" floatLabel="always">
+                  <mat-label>Outline form field</mat-label>
+                  <input matInput placeholder="Placeholder">
+                  <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+                  <mat-hint>Hunt</mat-hint>
+                </mat-form-field>  
+              </div>
+
+              <div>
+                <mat-form-field class="my-app-form-field" appearance="outline" appearance="outline" floatLabel="always">
+                  <mat-label>Outline form field</mat-label>
+                  <input matInput placeholder="Placeholder">
+                  <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+                  <mat-hint>Hant</mat-hint>
+                </mat-form-field>  
+              </div>
+            </form>
           </mat-card-content>
         </mat-card>
       </mat-grid-tile>

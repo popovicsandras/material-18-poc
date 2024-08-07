@@ -1,4 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+  --my-app-font: var(--mat-form-field-container-text-font);
+  --my-app-form-field-fonts: var(--my-app-font);
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
+
+*, ::before, ::after {
+    border-style: none;
+}
